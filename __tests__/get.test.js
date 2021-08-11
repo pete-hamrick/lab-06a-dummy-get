@@ -11,8 +11,14 @@ it('gets the discs endpoint', async () => {
 });
 
 it('gets a specific disc', async () => {
-    const response = await request.get('/dirtbikes/1')
+    const response = await request.get('/discs/1')
 
     expect(response.status).toBe(200)
     expect(response.body).toEqual(data[0])
+});
+
+it('gets the brand name', async () => {
+    const response = await request.get('/discs/brand/innova')
+    expect(response.status).toBe(200)
+    expect(response.body).toEqual(data.filter(item => item.brand === 'innova'))
 })

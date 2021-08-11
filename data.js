@@ -4,6 +4,7 @@ const data = [
         disc: 'Aviar',
         speed: 2,
         type: 'Putt/Approach',
+        brand: 'innova',
         stable: true,
         plastics: 'star, gstar, champion, xt, r-pro, glow, dx'
     },
@@ -12,6 +13,7 @@ const data = [
         disc: 'Roc',
         speed: 4,
         type: 'Midrange',
+        brand: 'innova',
         stable: true,
         plastics: 'star, pro, glow, dx'
     },
@@ -20,6 +22,7 @@ const data = [
         disc: 'Essence',
         speed: 8,
         type: 'Fairway Driver',
+        brand: 'discmania',
         stable: false,
         plastics: 'neo, geo'
     },
@@ -28,6 +31,7 @@ const data = [
         disc: 'Beast',
         speed: 10,
         type: 'Distance Driver',
+        brand: 'innova',
         stable: true,
         plastics: 'star, gstar, champion, blizzard, pro, glow, dx'
     },
